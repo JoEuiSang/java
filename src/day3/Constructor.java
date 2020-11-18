@@ -1,6 +1,6 @@
 package day3;
 
-public class Constructor {
+public class Constructor { 
 
 //	클래스의 이름과 똑같다, 오버로딩 가능
 //	기본 생성자, 선언이 안되어 있더라도 컴파일과정에서 자동 생성
