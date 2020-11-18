@@ -13,5 +13,4 @@ public class ±¸±¸´Ü {
 			System.out.println(dan + " * " + i + " = " + dan * i);
 		}
 	}
-
 }
