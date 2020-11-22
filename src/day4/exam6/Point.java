@@ -1,4 +1,4 @@
-package day3;
+package day4.exam6;
 
 public class Point {
 	private int x,y;
@@ -22,7 +22,15 @@ public class Point {
 	}
 	
 	public void show(boolean visible) {
-		System.out.printf("좌표 [x = %d, y = %d]에 점을 지웠습니다\n", getX(), getY());
+		if(visible == false) {
+			System.out.printf("좌표 [x = %d, y = %d]에 점을 지웠습니다\n", getX(), getY());
+			setX(0);
+			setY(0);	
+		}
+		else {
+			show();
+		}
+		
 	}
 	
 	public int getX() {

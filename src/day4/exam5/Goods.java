@@ -1,4 +1,4 @@
-package day3;
+package day4.exam5;
 
 public class Goods {
 	private String name;
@@ -7,7 +7,7 @@ public class Goods {
 	private int countSold;
 
 	public Goods() {
-		System.out.println("제품이 생성되었습니다");
+		this("청소기", 100000, 100,10);
 	}
 
 	public Goods(String name) {
